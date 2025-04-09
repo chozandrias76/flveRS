@@ -1,0 +1,38 @@
+(
+  resources: {
+    "flvers::ResourceA": (
+      score: 1,
+    ),
+  },
+  entities: {
+    4294967296: (
+      components: {
+        "bevy_core::name::Name": (
+          hash: 2150321921436536485,
+          name: "joe",
+        ),
+        "bevy_transform::components::global_transform::GlobalTransform": ((1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0)),
+        "bevy_transform::components::transform::Transform": (
+          translation: (0.0, 0.0, 0.0),
+          rotation: (0.0, 0.0, 0.0, 1.0),
+          scale: (1.0, 1.0, 1.0),
+        ),
+        "flvers::ComponentA": (
+          x: 1.0,
+          y: 2.0,
+        ),
+        "flvers::ComponentB": (
+          value: "hello",
+        ),
+      },
+    ),
+    4294967297: (
+      components: {
+        "flvers::ComponentA": (
+          x: 3.0,
+          y: 4.0,
+        ),
+      },
+    ),
+  },
+)
