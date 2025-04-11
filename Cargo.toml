@@ -4,8 +4,14 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-bevy = { version = "0.15", features = ["dynamic_linking"] }
+bevy = { version = "0.15.3"}
 log = { version = "*", features = ["max_level_debug", "release_max_level_warn"] }
+fstools_formats = { git = "https://github.com/soulsmods/fstools-rs"}
+dotenv = "0.15.0"
+thiserror = "2.0.12"
+serde = "1.0.219"
+ron = "0.10.1"
+byteorder = "1.5.0"
 
 [workspace]
 resolver = "2" # Important! wgpu/Bevy needs this!

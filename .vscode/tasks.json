@@ -1,0 +1,7 @@
+{
+    "label": "build dev profile",
+    "type": "shell",
+    "command": "cargo build --profile dev",
+    "problemMatcher": ["$rustc"]
+  }
+  
